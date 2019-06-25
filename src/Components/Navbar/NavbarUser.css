@@ -1,0 +1,101 @@
+.navbar_user{
+    position: fixed;
+    top : 0px ;
+    overflow: hidden;
+    z-index: 1 ;
+    background-color: #4e8099 ;
+    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8 ;
+  width: 100% ;
+
+}
+.logo{
+margin-left: 5% ;
+ font-size: 19px ;
+ font-family: cursive;
+
+}
+ .brand {
+  text-decoration: none ;
+  color: black ;
+}
+.logo img {
+  border-radius: 50% ;
+  height: 30px ;
+  width: 30px ;
+  margin-right: 5px ;
+}
+.nav_list{
+  width: 40%;
+  margin-right: 2% ;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none ;
+}
+.search {
+  width: 35%;
+  display:flex ;
+
+
+  justify-content: center;
+}
+.search input {
+ margin-right: -35px ;
+ border-radius: 100px ;
+ width: 100%;
+ padding: 5px 5px 5px 20px ;
+ outline: none ;
+ border: none ;
+
+}
+.search button {
+  z-index: 1 ;
+  border: none ;
+  background-color: white ;
+  outline: none ;
+  border-radius: 0px 100px 100px 0px ;
+}
+/* .search input::placeholder {
+  color: grey ;
+  padding-left: 10px ;
+} */
+ .item   .link  {
+text-decoration: none ;
+font-family: cursive;
+font-size: 15px ;
+color:black ;
+}
+.link:hover {
+  color: grey ;
+}
+@media only screen and (max-width: 750px) {
+  .nav_list {
+    display:none ;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100% ;
+      font-size: 30px ;
+  }
+  .logo img {
+    height: 50px;
+    width: 50px ;
+  }
+  .nav_list {
+    display:none ;
+  }
+  .search {
+    display:none ;
+
+  }
+}
